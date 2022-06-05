@@ -1,6 +1,6 @@
 from enum import unique
 import imp
-from tkinter import CASCADE
+# from tkinter import CASCADE #Fixing Heroku deploy issue
 from sqlalchemy import TIMESTAMP, Column, ForeignKey, Integer, String, Boolean, false, true
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql.expression import null, text
